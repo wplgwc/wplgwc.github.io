@@ -1,10 +1,10 @@
-/* @pjs preload="mysteryhead.png"; */
+/* @pjs preload="data/mysteryhead.png"; */
 
 PImage mysteryHead;
 
 void setup() {
   size(357, 491);
-  mysteryHead = loadImage("mysteryhead.png");
+  mysteryHead = loadImage("data/mysteryhead.png");
   background(mysteryHead);
 }
 
