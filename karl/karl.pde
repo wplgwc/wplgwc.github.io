@@ -4,7 +4,7 @@ PImage karlHead;
 
 void setup() {
   size(357, 491);
-  karlHead = loadImage("karlhead.png");
+  karlHead = loadImage("data/karlhead.png");
   background(50);
   image(karlHead);
 }
