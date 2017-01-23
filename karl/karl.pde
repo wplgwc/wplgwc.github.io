@@ -1,4 +1,4 @@
-/* @pjs preload="karl/data/karlhead.png"; */
+/* @pjs preload="karl/karlhead.png"; */
 
 PImage karlHead;
 
