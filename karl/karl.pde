@@ -5,5 +5,5 @@ void setup() {
 }
 
 void draw() {
-  image(karlHead, 0, 0);
+  image(karlHead, 0, 0, 30, 30);
 }
