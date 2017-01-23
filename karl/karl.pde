@@ -4,7 +4,7 @@ PImage karlHead;
 
 void setup() {
   size(357, 491);
-  karlHead = loadImage("karlhead.png");
+  karlHead = loadImage("data/karlhead.png");
   background(karlHead);
 }
 
@@ -12,4 +12,5 @@ void draw() {
   stroke(255);
   fill(255, 0, 255);
   ellipse(50, 50, 25, 25);
+  println("1");
 }
