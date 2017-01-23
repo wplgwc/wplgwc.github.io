@@ -1,11 +1,12 @@
-/* @pjs preload="data/karlhead.png"; */
+/* @pjs preload="karl/data/karlhead.png"; */
 
 PImage karlHead;
 
 void setup() {
   size(357, 491);
-  karlHead = loadImage("data/karlhead.png");
-  background(karlHead);
+  karlHead = loadImage("karl/data/karlhead.png");
+  background(50);
+  image(karlHead);
 }
 
 void draw() {
