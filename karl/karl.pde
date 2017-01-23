@@ -1,7 +1,7 @@
 PImage karlHead;
 
 void setup() {
-  fullScreen();
+  size(640, 480);
   karlHead = loadImage("karlhead.png");
 }
 
