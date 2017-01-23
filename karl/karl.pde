@@ -1,3 +1,5 @@
+/* @pjs preload="karlhead.png"; */
+
 PImage karlHead;
 
 void setup() {
